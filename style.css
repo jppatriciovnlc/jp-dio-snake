@@ -1,4 +1,4 @@
-body {
+.snakeboard {
     height: 95vh;
     width: 95vw;
     display: flex;
@@ -6,5 +6,29 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(17, 87, 17);
-    text-transform: uppercase;
+    text-transform: uppercase;    
+    background-color: rgb(166, 194, 166);
+}
+
+canvas{
+    border: solid 3px rgb(17, 87, 17);
+    border-bottom: solid 1px rgb(17, 87, 17);
+}
+
+.row {
+    border: solid 3px rgb(17, 87, 17);
+    border-top: solid 1px rgb(17, 87, 17);
+    height: 5vh;
+    width: 512px;
+    background-color: honeydew;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    margin-left: 10px;;
+}
+
+#score {
+    margin-left: 15px;;
 }
